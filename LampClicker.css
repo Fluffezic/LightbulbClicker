@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+body {
+	background-image: url("https://media.istockphoto.com/vectors/circuit-board-vector-seamless-tile-vector-id165558814?k=20&m=165558814&s=612x612&w=0&h=qtsjJPjzP6Y1EypY7u6br_gBdotppFe7oiYlS0iOriU=")
+	
+}
+@keyframes lampkeyframe {
+	0% {width: 95%}
+	50% {width: 100%}
+	100% {width: 95%}
+}
+@keyframes textkeyframe {
+	0% {top: 47%}
+	50% {top: 50%}
+	100% {top: 47%}
+}
+.countertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  user-select: none;
+  	  			animation-name: textkeyframe;
+	animation-duration: 4s;
+	  animation-iteration-count: infinite;
+}
+#lampdiv {
+	padding: 40px;
+	height: 300px;
+	width: 300px;
+	  background-repeat: no-repeat;
+	  background-origin: inherit;
+	    position: relative;
+  		text-align: center;
+
+}
+#lampimg {
+	width: 95%;
+	user-select:none;
+	  			animation-name: lampkeyframe;
+	animation-duration: 4s;
+	  animation-iteration-count: infinite;
+
+}
+#upgrade1div {
+	position: absolute;
+ 	
+	background-image: url("https://blogs.esa.int/space19plus/files/2019/03/nebula.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	user-select:none;
+	
+	
+	
+}
+#upgrade2div {
+	position: absolute;
+ 	display: none;
+	background-image: url("https://blogs.esa.int/space19plus/files/2019/03/nebula.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	user-select:none;
+	
+	
+	
+}
+#upgrade3div {
+	position: absolute;
+ 	display: none;
+	background-image: url("https://blogs.esa.int/space19plus/files/2019/03/nebula.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	user-select:none;
+	
+	
+	
+}
+#upgrade4div {
+	position: absolute;
+ 	display: none;
+	background-image: url("https://blogs.esa.int/space19plus/files/2019/03/nebula.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	user-select:none;
+	
+	
+	
+}
+#upgrade5div {
+	position: absolute;
+ 	display: none;
+	background-image: url("https://blogs.esa.int/space19plus/files/2019/03/nebula.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	user-select:none;
+	
+	
+	
+}
+.upgradetext {
+	color: white;
+	user-select:none;
+	
+	
+	
+	
+}
+.prepara {
+	background-image: url("https://cdn-icons-png.flaticon.com/512/17/17636.png");
+	  background-size: cover;
+	    background-position: center;
+	  color: red;
+	  font-weight: bold;
+	
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="https://insightprojects.be/wp-content/uploads/2021/02/lightbulb-2.png">
+<link rel="stylesheet" href="LampClicker.css">
+<meta charset="ISO-8859-1">
+<title>Lightbulb Clicker</title>
+<script src="LampClicker.js" defer="true"></script>
+</head>
+<body>
+<div id="lampdiv" onclick="manualclick()">
+<img id="lampimg" draggable="false" src="https://www.w3schools.com/js/pic_bulbon.gif">
+<p id="counterid" class="countertext">0</p>
+</div>
+<div id="upgrade1div" style="top: 5%;  right: 10%;">
+<p id="upgrade1cost" class="upgradetext">Buy this upgrade for: 15 Clicks</p>
+<button onclick="upgrade(1)">Buy Lightswitch (0.1x click/second)</button>
+<p id="upgrade1count" class="upgradetext">Your Lightswitches: 0</p>
+</div>
+<div id="upgrade2div" style="top: 30%;  right: 10%;">
+<p id="upgrade2cost" class="upgradetext">Buy this upgrade for: 100 Clicks</p>
+<button onclick="upgrade2()">Buy Breakerbox (1x click/second)</button>
+<p id="upgrade2count" class="upgradetext">Your Breakerboxes: 0</p>
+</div>
+<p id="upgrade2pre" class="prepara" style="top: 30%;  right: 10%; display: block; position: absolute; 	width: 100px;">This upgrade unlocks at 50 clicks</p>
+<div id="upgrade3div" style="top: 55%;  right: 10%;">
+<p id="upgrade3cost" class="upgradetext">Buy this upgrade for: 1100 Clicks</p>
+<button onclick="upgrade3()">Buy Pylon (8x click/second)</button>
+<p id="upgrade3count" class="upgradetext">Your Pylons: 0</p>
+</div>
+<p id="upgrade3pre" class="prepara" style="top: 55%;  right: 10%; display: block; position: absolute;	width: 100px;">This upgrade unlocks at 550 clicks</p>
+<div id="upgrade4div" style="top: 17.5%;  right: 4%;">
+<p id="upgrade4cost" class="upgradetext">Buy this upgrade for: 12000 Clicks</p>
+<button onclick="upgrade4()">Buy Powerplants (47x click/second)</button>
+<p id="upgrade4count" class="upgradetext">Your Powerplants: 0</p>
+</div>
+<p id="upgrade4pre" class="prepara" style="top: 17.5%;  right: 4%; display: block; position: absolute;	width: 100px;">This upgrade unlocks at 6000 clicks</p>
+<div id="upgrade5div" style="top: 42.5%;  right: 4%;">
+<p id="upgrade5cost" class="upgradetext">Buy this upgrade for: 130000 Clicks</p>
+<button onclick="upgrade5()">Buy Sun (260x click/second)</button>
+<p id="upgrade5count" class="upgradetext">Your Suns: 0</p>
+</div>
+<p id="upgrade5pre" class="prepara" style="top: 42.5%;  right: 4%; display: block; position: absolute;	width: 100px">This upgrade unlocks at 75000 clicks</p>
+<img id="switchbonus" src="http://assets.stickpng.com/images/5896005dcba9841eabab60bf.png" style="display: none; width: 100px; position: fixed;" onclick="multiplier()">
+<p id="switchbonusmessage" style="display: none; position: fixed; left: 20%; top: 15%; color: red; font-size: 100px">2x multiplier for 1 minute</p>
+</body>
+</html>
